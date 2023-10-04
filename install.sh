@@ -18,7 +18,7 @@ check_command()
     exit 1
 }
 
-check_commands crc jq yq oc kubectl kustomize git make timeout base64
+check_commands crc jq yq oc kubectl kustomize git make timeout base64 openssl
 
 # Configure and Run CRC
 crc config set enable-cluster-monitoring true
